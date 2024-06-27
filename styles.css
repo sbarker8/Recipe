@@ -1,0 +1,143 @@
+html{
+    background-color: rgba(122, 191, 191, .5);
+}
+
+body{
+    background-color: white;
+    margin:0 auto;
+    width:414px;
+}
+header img{
+    width:414px;
+}
+h1{
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 40px;
+    text-align: center;
+}
+h2{
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 30px;
+    text-align: center;
+    margin: 10px;
+    
+}
+h3{
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 25px;
+    margin: 0;
+    margin-bottom: 40px;
+    }
+nav a{
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 20px;
+}
+#sides li{
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 20px;
+
+}
+#links li{
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 20px;
+}
+p{
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+}
+#about p{
+    margin: 10px;
+}
+#ingredients ul{
+    line-height: 30px;
+    padding:20px;
+    list-style:square;
+}
+#ingredients li{
+    padding-left: 15px;
+    margin-left: 5px;
+}
+#directions ol{
+    line-height: 25px;
+}
+#directions li{
+    padding: 10px;
+}
+#sides{
+    background-color: #7ABFBF;
+    display: flex;
+    flex-direction: column;
+
+}
+
+#sides div{
+
+}
+#sides p{
+    padding-left: 20px;
+   line-height: 10px;
+   
+}
+
+#sides img{
+   float:left;
+    width: 100px;
+    margin:20px;
+   
+}
+
+
+  
+
+#details dl{
+    display:grid;
+    grid-template-columns: max-content auto;
+    margin-left:10px;
+    line-height: 25px;
+}
+#details dt{
+    grid-column-start: 1;
+}
+#details dd{
+    grid-column-start: 2;
+}
+dd{
+
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px; 
+}
+li{
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+}
+nav{
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+}
+input{
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+}
+dt{
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    font-weight: bold;  
+}
+#links ul{
+    display: inline-flex;
+    list-style: none;
+    padding-left: 0;
+    padding: 10px;
+}
+#links li{
+    color:#EB5428;
+    text-align: center;
+    padding:10px;
+}
+footer p{
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 20px;
+    text-align:center;
+    font-weight: bold;
+    line-height: 20px;
+}
