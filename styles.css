@@ -34,7 +34,7 @@ h3{
     margin-bottom: 40px;
     }
 nav{
-    
+    display:none;
 }
 nav li{
     font-family: "Bebas Neue", sans-serif;
@@ -255,5 +255,5 @@ h2{
     }
         
 @media screen and (min-width:1280px){
-    
+
 }
